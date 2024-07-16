@@ -111,7 +111,7 @@ with st.sidebar:
     st.session_state.maxlength = st.slider('Length reply:', min_value=150, max_value=1500, 
                                            value=500, step=50)
     mytokens = st.markdown(f"""**Context turns** {st.session_state.len_context}""")
-    st.markdown(f"Context Window: **12k** tokens")
+    st.markdown(f"Context Window: **8k** tokens")
     st.markdown(f"Buffer status: {st.session_state.bufstatus}")
     st.markdown(f"**Logfile**: {st.session_state.logfilename}")
     btnClear = st.button("Clear History",type="primary", use_container_width=True)
