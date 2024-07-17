@@ -6,7 +6,7 @@ stramlit AI assistant with llamacpp and H2O danube3
 Clone the repo
 
 ```
-pip install streamlit==1.36.0 llama-cpp-python langchain langchain-community
+pip install streamlit==1.36.0 llama-cpp-python langchain langchain-community tiktoken
 ```
 
 Download the GGUF model, Q8 from official HuggingFace Hub Model Card page
